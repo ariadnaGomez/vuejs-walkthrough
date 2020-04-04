@@ -1,0 +1,21 @@
+{
+  "*.+(vue)": [
+    "npm run fix-style",
+    "npm run format",
+    "npm run lint -- --fix",
+    "npm run test:unit -- --findRelatedTests"
+  ],
+  "*.+(js)": [
+    "npm run format",
+    "npm run lint -- --fix",
+    "npm run test:unit -- --findRelatedTests"
+  ],
+  "*.+(css|scss)": [
+    "npm run fix-style",
+    "npm run format",
+  ],
+  "*.+(json)": [
+    "npm run format",
+  ],
+
+}
